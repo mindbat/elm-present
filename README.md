@@ -7,7 +7,7 @@ elm-present is a simplified slideshow app that converts static json and image fi
 
 ## Usage
 
-Using elm--resent locally is pretty simple if you have the elm tools installed:
+Using elm-present locally is pretty simple if you have the elm tools [installed](https://guide.elm-lang.org/install.html):
 
 1. Clone or download the code
 1. Add an assets folder
