@@ -27,7 +27,7 @@ init =
 readSlide : String -> Cmd Msg
 readSlide slideName =
     let
-        url = "/assets/slides/" ++ slideName
+        url = "./assets/slides/" ++ slideName
         request = Http.get url decodeSlide
     in
         Http.send NewSlide request
