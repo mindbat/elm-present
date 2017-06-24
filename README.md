@@ -31,7 +31,7 @@ elm-present expects slide files to be json in this format:
 
 As you can see, each slide has a title, some text, an image, and pointers to the next slide to show and the previous slide (so you can navigate forward and back),
 
-The title and image occupy most of the slide. The text will appear just below the image, inbetween the navigation buttons.
+The title and image occupy most of the slide. The text will appear just below the image, between the navigation buttons.
 
 Note that the prevSlide and nextslide entries need to match the filenames for the json files containing info for the next slides. When you get to the last slide, just use its own filename for the nextSlide entry.
 
